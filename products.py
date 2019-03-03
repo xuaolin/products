@@ -11,3 +11,6 @@ while True:
 	#advanced way for line 7 - 10
 	#products.append(p[name, price])
 print(products)
+
+for p in products:
+	print(p[0], 'price is' , p[1])
