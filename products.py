@@ -8,4 +8,6 @@ while True:
 	p.append(name)
 	p.append(price)
 	products.append(p)
+	#advanced way for line 7 - 10
+	#products.append(p[name, price])
 print(products)
