@@ -1,3 +1,13 @@
+with open('products.csv', 'r') as f:
+	for line in f:
+		s = line.strip().split(',')
+		name = s[0]
+		price = s[1]
+		print(s)
+		# advanced way for line 4-6
+		# name, price = line.strip().split(',')
+		# products.append([name, price])
+		# print(products)
 products = []
 while True:
 	name = input('please enter the name of the product:')
